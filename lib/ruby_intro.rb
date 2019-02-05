@@ -42,8 +42,7 @@ def binary_multiple_of_4? s
     if s == "0"
         return true
     end
-    else
-        /^[10]*00$/.match(s) != nil
+    /^[10]*00$/.match(s) != nil
 end
 
 # Part 3
